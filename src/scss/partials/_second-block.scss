@@ -1,89 +1,85 @@
 .second_block {
-    display: flex;
-    grid-column: 2 / 12;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  grid-column: 5 / 9;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+  h2 {
+    margin-top: 50px;
+  }
+  h1 {
+    color: $accentColor;
     margin-bottom: 50px;
-    h2 {
-        font-size: 50px;
-        font-weight: bold;
-        margin-top: 50px;
-    }
-    h1 {
-        font-size: 80px;
-        font-weight: bold;
-        color: $accentColor;
-        margin-bottom: 50px;
-    }
-    h3 {
-        margin: 20px 0 20px 0;
-        font-size: 16px;
-    }
+  }
+}
+.second_block {
+  & p:nth-child(5) {
+    margin: 20px 0;
+  }
 }
 .cards {
-    display: flex;
-    justify-content: space-around;
-    grid-column: 3 / 10;
-    img {
-        width: 308px;
-        height: 300px;
-    }
+  display: flex;
+  justify-content: space-around;
+  img {
+    width: 208px;
+    height: 200px;
+  }
 }
-.first_card, .second_card {
-    box-shadow: 0px 0px 15px lightgrey;
-    width: 400px;
-    padding: 50px;
-    background-color: white;
-    border-radius: 20px;
+.first_card,
+.second_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 15px lightgrey;
+  width: 350px;
+  padding: 40px 30px;
+  background-color: white;
+  border-radius: 20px;
 }
 .content {
-    text-align: left;
-    p {
-        font-size: 18px;
-        margin: 10px 0 10px 0;
-        span {
-            text-decoration: line-through;
-        }
+  width: 100%;
+  text-align: left;
+  p {
+    margin: 10px 0 10px 0;
+    span {
+      text-decoration: line-through;
     }
-    .accent {
-        font-size: 50px;
-        color: $accentColor;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    & p:last-child {
-        color: $accentColor;
-    }
-    h2 {
-        margin: 20px 0 20px 0;
-        font-size: 36px;
-        font-weight: bold;
-        border-bottom: 1px solid $fontColor;
-    }
+  }
+  & p:last-child {
+    color: $accentColor;
+  }
+  .accent {
+    font-size: 36px;
+    color: $accentColor;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  h3 {
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid $fontColor;
+  }
 }
 .buy_botton {
-    background-color: $secondaryColor;
-    width: 413px;
-    height: 76px;
-    color: white;
-    font-size: 36px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 40px;
+  background-color: $secondaryColor;
+  padding: 10px 100px;
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
 }
 .buy_botton:hover {
-    background-color: darken($color: $secondaryColor, $amount: 10%);
+  background-color: darken($color: $secondaryColor, $amount: 10%);
 }
 .star {
-    
-    display: flex;
-    text-align: left;
-    justify-content: space-around;
-    grid-column: 3 / 10;
-    li {
-        list-style-type: circle;
-    }
-    p {
-        width: 400px;
-    }    
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  ul {
+    width: 400px;
+  }
+  & li:nth-child(3),
+  li:nth-child(4),
+  li:nth-child(5) {
+    margin-left: 20px;
+    list-style: circle;
+  }
 }

@@ -1,0 +1,16 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" fill="none" d="m71.033,33.262c4.485,-2.957 9.644,-6.253 11.57,-7.096c3.602,-1.575 6.827,-0.521 8.678,2.972c1.365,2.577 1.011,9.927 1.011,9.927"/>
+  <path fill-opacity="0" id="svg_3" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" fill="#cecece" d="m56.227,33.173c0,0 -7.747,-5.395 -11.436,-7.008c-3.603,-1.575 -6.827,-0.521 -8.679,2.972c-1.365,2.577 -1.011,9.927 -1.011,9.927"/>
+  <path fill-opacity="0" id="svg_4" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" fill="#cecece" d="m97.95,96.484c0,3.349 -2.714,6.062 -6.062,6.062l-55.776,0c-3.349,0 -6.062,-2.714 -6.062,-6.062l0,-38.02l67.9,0l0,38.02z"/>
+  <path fill-opacity="0" id="svg_5" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" fill="#cecece" d="m104.012,52.402c0,3.349 -2.713,6.062 -6.062,6.062l-67.9,0c-3.349,0 -6.062,-2.713 -6.062,-6.062l0,-7.275c0,-3.348 2.713,-6.062 6.062,-6.062l67.9,0c3.349,0 6.062,2.714 6.062,6.062l0,7.275z"/>
+  <path fill-opacity="0" id="svg_6" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" fill="#cecece" d="m56.055,39.064c-0.308,-0.852 -0.477,-1.769 -0.477,-2.727c0,-4.437 3.597,-8.033 8.034,-8.033c4.437,0 8.032,3.596 8.032,8.033c0,0.958 -0.169,1.876 -0.475,2.728"/>
+  <rect fill-opacity="0" id="svg_7" y="39.065" x="57.912" width="12.176" stroke-width="5" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke="#cecece" height="63.482" fill="#cecece"/>
+ </g>
+</svg>
